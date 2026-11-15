@@ -1,0 +1,12 @@
+{
+  "name": "sam-premium-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "No-install portfolio website with optional Supabase admin",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check site/js/api.js && node --check site/js/admin.js && node --check site/js/main.js"
+  }
+}
